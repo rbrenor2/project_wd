@@ -14,7 +14,19 @@ class ProjectWd extends StatelessWidget {
       ),
     );
   }
+
+  // @override
+  // ProjectWdState createState() => ProjectWdState();
+
 }
+
+// class ProjectWdState extends State<ProjectWd> with SingleTickerProviderStateMixin {
+//   @override
+//   Widget build(BuildContext context) {
+//     // TODO: implement build
+//   }
+
+// }
 
 class BackgroundWidget extends StatelessWidget {
   @override
@@ -80,4 +92,9 @@ class LoginButtonWidget extends StatelessWidget {
       
       return button;
   }
+}
+
+class HeartAnimationWidget extends StatefulWidget {
+  @override
+  HeartAnimationState    
 }
